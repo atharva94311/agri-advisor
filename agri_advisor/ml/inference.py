@@ -31,6 +31,10 @@ class HarvestModel:
             raise FileNotFoundError(f"No trained model at {path}. Run: python main.py train")
         bundle = joblib.load(path)
         self.model, self.columns = bundle["model"], bundle["model_columns"]
+        # Trained with n_jobs=-1. Predicting a 90-day curve is fast in one process, and parallel predict would
+        # start a worker process per CPU, each holding a copy of the trees (~500 MB extra per request).
+        if hasattr(self.model, "n_jobs"):
+            self.model.n_jobs = 1
         self.version = bundle.get("version", "unknown")
         self.feature_ranges = bundle.get("feature_ranges", {})
 

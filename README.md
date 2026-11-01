@@ -62,6 +62,16 @@ python main.py serve              # API at http://127.0.0.1:8000/docs
 cd frontend && npm install && npm run dev   # web app at http://localhost:5173 (in a second terminal)
 ```
 
+### Docker
+
+```bash
+docker build -t agri-advisor .
+docker run -p 8000:8000 --env-file .env -v "$PWD/db:/app/db" agri-advisor   # web app + API at http://localhost:8000
+```
+
+The image holds the code, the model weights and the rainfall lookup table, not the training data. It serves the
+API under `/api` and the web app on `/` (`agri_advisor/api/web.py`).
+
 Run `python main.py predict` daily (cron / launchd) to refresh forecasts. Mandi price trends build up from these
 daily runs, since the data.gov.in resource only holds the latest day.
 

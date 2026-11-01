@@ -1,0 +1,10 @@
+.git
+.venv
+.env
+.claude
+**/__pycache__
+**/node_modules
+frontend/dist
+db/*.db
+data/raw
+data/processed/hybrid_harvest_dataset.csv

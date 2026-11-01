@@ -5,6 +5,7 @@ services:
     name: agri-advisor
     runtime: docker
     plan: free
+    region: singapore  # closest to India; data.gov.in refuses connections from Render's US region
     healthCheckPath: /api/health
     autoDeploy: true
     envVars:

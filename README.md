@@ -69,6 +69,10 @@ docker build -t agri-advisor .
 docker run -p 8000:8000 --env-file .env -v "$PWD/db:/app/db" agri-advisor   # web app + API at http://localhost:8000
 ```
 
+To host it, click [![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/atharva94311/agri-advisor)
+and paste your keys when asked ([render.yaml](render.yaml), free plan: sleeps when idle and starts with empty
+databases after each restart).
+
 The image holds the code, the model weights and the rainfall lookup table, not the training data. It serves the
 API under `/api` and the web app on `/` (`agri_advisor/api/web.py`).
 

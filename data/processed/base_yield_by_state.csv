@@ -1,0 +1,266 @@
+crop,state,base_yield_kg_ha,n_records
+rice,Andaman and Nicobar Islands,2819.444036103843,16
+rice,Andhra Pradesh,2697.993370485988,390
+rice,Arunachal Pradesh,1200.0,261
+rice,Assam,1539.7754206137647,1318
+rice,Bihar,1443.4912495957628,1478
+rice,Chhattisgarh,1418.1944751726955,280
+rice,Dadra and Nagar Haveli,1995.972671700827,31
+rice,Goa,2664.4042951714837,38
+rice,Gujarat,2100.4641252642705,322
+rice,Haryana,2652.640129194744,264
+rice,Himachal Pradesh,1484.6039892069202,131
+rice,Jammu and Kashmir ,1673.2676442293678,119
+rice,Jharkhand,963.9999159591302,179
+rice,Karnataka,2514.8424694955384,1097
+rice,Kerala,2252.4802787591348,689
+rice,Madhya Pradesh,939.3881726057376,545
+rice,Maharashtra,1554.5707852519,508
+rice,Manipur,2266.7398463227223,107
+rice,Meghalaya,1770.9285821226808,276
+rice,Mizoram,1717.2093023255813,77
+rice,Nagaland,1819.933354624502,190
+rice,Odisha,1500.0,1215
+rice,Puducherry,2616.519174041298,97
+rice,Punjab,3253.731343283582,155
+rice,Rajasthan,1469.3147590361446,268
+rice,Sikkim,1496.078431372549,69
+rice,Tamil Nadu,3070.610932475884,281
+rice,Telangana ,2732.14544139172,302
+rice,Tripura,2502.8034261092016,80
+rice,Uttar Pradesh,2130.153342649466,1596
+rice,Uttarakhand,1531.667694838577,243
+rice,West Bengal,2433.846511160107,946
+rice,ALL,1938.8158817848334,13570
+maize,Andaman and Nicobar Islands,3465.753424657534,3
+maize,Andhra Pradesh,2953.748006379585,233
+maize,Arunachal Pradesh,1386.701599595634,272
+maize,Assam,785.4757929883139,182
+maize,Bihar,2524.3694801509464,1786
+maize,Chandigarh,2166.6666666666665,13
+maize,Chhattisgarh,1435.4813625584752,290
+maize,Dadra and Nagar Haveli,1000.0,16
+maize,Gujarat,1600.0,301
+maize,Haryana,2496.4336661911557,79
+maize,Himachal Pradesh,2259.2616331239583,143
+maize,Jammu and Kashmir ,1291.2252648410954,121
+maize,Jharkhand,1228.998310371207,120
+maize,Karnataka,2823.893596986817,1314
+maize,Kerala,1387.7551020408164,5
+maize,Madhya Pradesh,1339.9379326808307,749
+maize,Maharashtra,1750.0,985
+maize,Manipur,2647.0588235294117,43
+maize,Meghalaya,1544.5367432299643,134
+maize,Mizoram,1800.0,113
+maize,Nagaland,1900.0,211
+maize,Odisha,1271.8261850462247,890
+maize,Punjab,3000.0,208
+maize,Rajasthan,1248.38067547981,374
+maize,Sikkim,1557.199074074074,70
+maize,Tamil Nadu,2042.146879646199,246
+maize,Telangana ,3416.089965397924,251
+maize,Tripura,1026.519142957499,80
+maize,Uttar Pradesh,1500.0,2464
+maize,Uttarakhand,1335.0237627707106,244
+maize,West Bengal,2275.747508305648,411
+maize,ALL,1800.0,12351
+wheat,Andhra Pradesh,1294.1176470588234,21
+wheat,Arunachal Pradesh,1505.6277056277056,201
+wheat,Assam,1181.8746295616834,416
+wheat,Bihar,2054.8147265223415,667
+wheat,Chhattisgarh,1308.9952527956814,270
+wheat,Dadra and Nagar Haveli,1960.544217687075,17
+wheat,Gujarat,2604.9597855227885,364
+wheat,Haryana,3869.795585641615,186
+wheat,Himachal Pradesh,1516.3290510544841,134
+wheat,Jammu and Kashmir ,1399.1488068095455,114
+wheat,Jharkhand,1315.868243880968,140
+wheat,Karnataka,1048.4739676840215,175
+wheat,Madhya Pradesh,1859.131597811074,761
+wheat,Maharashtra,1390.9574468085107,477
+wheat,Meghalaya,1152.1464646464647,52
+wheat,Mizoram,1108.5271317829456,4
+wheat,Nagaland,1753.7878787878788,126
+wheat,Odisha,1316.025641025641,418
+wheat,Punjab,3982.3788546255505,109
+wheat,Rajasthan,2564.1105307105267,447
+wheat,Sikkim,1070.4545454545455,70
+wheat,Telangana ,1089.55223880597,55
+wheat,Tripura,2000.0,80
+wheat,Uttar Pradesh,2778.4731039231347,1266
+wheat,Uttarakhand,1428.2916685210466,192
+wheat,West Bengal,2260.4272634791455,323
+wheat,ALL,1891.8027140593786,7087
+cotton,Andhra Pradesh,327.9997512702463,238
+cotton,Assam,75.55555555555556,421
+cotton,Chhattisgarh,244.33898305084745,46
+cotton,Gujarat,381.2149028077754,273
+cotton,Haryana,376.86065914471425,151
+cotton,Himachal Pradesh,85.0,24
+cotton,Jammu and Kashmir ,85.0,15
+cotton,Karnataka,290.73917050691244,441
+cotton,Kerala,273.70779013151105,12
+cotton,Madhya Pradesh,145.9189627228525,258
+cotton,Maharashtra,223.33974975938403,441
+cotton,Manipur,56.666666666666664,8
+cotton,Meghalaya,155.9316583379604,58
+cotton,Mizoram,185.45454545454547,45
+cotton,Nagaland,170.0,39
+cotton,Odisha,252.56147540983608,28
+cotton,Puducherry,142.23333333333335,24
+cotton,Punjab,508.50877192982455,149
+cotton,Rajasthan,93.15716272600835,363
+cotton,Tamil Nadu,340.0,497
+cotton,Telangana ,292.9998136761692,153
+cotton,Tripura,239.19298245614036,79
+cotton,Uttar Pradesh,132.58899676375404,121
+cotton,West Bengal,307.761476146095,50
+cotton,ALL,235.86685106007846,3936
+chickpea,Andhra Pradesh,1000.0,96
+chickpea,Assam,500.0,390
+chickpea,Bihar,949.5483069806241,558
+chickpea,Chandigarh,1000.0,3
+chickpea,Chhattisgarh,857.1428571428571,279
+chickpea,Dadra and Nagar Haveli,910.3260869565217,16
+chickpea,Gujarat,853.12764158918,312
+chickpea,Haryana,881.7786735529382,133
+chickpea,Himachal Pradesh,823.5294117647059,69
+chickpea,Jammu and Kashmir ,562.5,23
+chickpea,Jharkhand,762.8042135851798,125
+chickpea,Karnataka,571.4285714285714,382
+chickpea,Madhya Pradesh,864.0350877192982,715
+chickpea,Maharashtra,658.4556890345023,522
+chickpea,Meghalaya,609.903381642512,58
+chickpea,Mizoram,857.1428571428571,5
+chickpea,Nagaland,800.0,113
+chickpea,Odisha,500.0,150
+chickpea,Punjab,1000.0,196
+chickpea,Rajasthan,835.7001057631333,420
+chickpea,Tamil Nadu,610.9463467241844,213
+chickpea,Telangana ,1105.0395617371832,116
+chickpea,Tripura,750.0,51
+chickpea,Uttar Pradesh,923.1998033914967,1152
+chickpea,Uttarakhand,649.2530755711775,148
+chickpea,West Bengal,916.6666666666666,221
+chickpea,ALL,806.0041974210943,6466
+lentil,Andhra Pradesh,428.9421599905471,12
+lentil,Assam,509.0796212944281,334
+lentil,Bihar,754.6912406703282,540
+lentil,Chhattisgarh,326.5320723190754,174
+lentil,Haryana,836.401157757588,92
+lentil,Himachal Pradesh,558.4415584415584,61
+lentil,Jammu and Kashmir ,466.92745376955907,26
+lentil,Jharkhand,574.4981638619271,46
+lentil,Madhya Pradesh,469.8781499357617,420
+lentil,Meghalaya,838.3727006688963,16
+lentil,Mizoram,666.6666666666666,13
+lentil,Nagaland,750.0,68
+lentil,Odisha,390.1869158878505,23
+lentil,Punjab,670.0,113
+lentil,Rajasthan,925.2502421698417,215
+lentil,Telangana ,375.0,15
+lentil,Tripura,685.6663131848709,60
+lentil,Uttar Pradesh,798.9855756435259,1002
+lentil,Uttarakhand,592.5925925925926,189
+lentil,West Bengal,666.6666666666666,291
+lentil,ALL,682.6555388441614,3710
+pigeonpeas,Andhra Pradesh,528.8135593220339,279
+pigeonpeas,Assam,725.3325392098471,452
+pigeonpeas,Bihar,1181.2478612980494,484
+pigeonpeas,Chhattisgarh,481.22711054795707,292
+pigeonpeas,Dadra and Nagar Haveli,858.2773213841175,18
+pigeonpeas,Gujarat,920.0304922317409,332
+pigeonpeas,Haryana,1033.6762108222586,194
+pigeonpeas,Himachal Pradesh,449.5798319327731,18
+pigeonpeas,Jharkhand,1265.8227848101264,81
+pigeonpeas,Karnataka,522.5822287677958,391
+pigeonpeas,Kerala,1000.0,6
+pigeonpeas,Madhya Pradesh,606.6017316017316,760
+pigeonpeas,Maharashtra,602.9379166879805,534
+pigeonpeas,Meghalaya,782.8947368421053,55
+pigeonpeas,Mizoram,666.6666666666666,28
+pigeonpeas,Nagaland,902.439024390244,141
+pigeonpeas,Odisha,625.0,172
+pigeonpeas,Punjab,1000.0,214
+pigeonpeas,Rajasthan,842.1052631578947,259
+pigeonpeas,Tamil Nadu,679.8628257391515,418
+pigeonpeas,Telangana ,447.2234643348073,188
+pigeonpeas,Tripura,731.5302144249513,60
+pigeonpeas,Uttar Pradesh,823.9531742458352,975
+pigeonpeas,Uttarakhand,739.0416205634522,160
+pigeonpeas,West Bengal,825.8697631047268,194
+pigeonpeas,ALL,731.9587628865979,6711
+mungbean,Andaman and Nicobar Islands,596.989966555184,3
+mungbean,Andhra Pradesh,418.5266102920374,418
+mungbean,Assam,477.14987714987717,360
+mungbean,Bihar,576.9230769230769,964
+mungbean,Chhattisgarh,247.19101123595505,519
+mungbean,Gujarat,472.0,399
+mungbean,Haryana,433.92673741869226,96
+mungbean,Himachal Pradesh,401.5151515151515,61
+mungbean,Jammu and Kashmir ,500.0,58
+mungbean,Karnataka,265.3061224489796,543
+mungbean,Madhya Pradesh,318.0573834868796,490
+mungbean,Maharashtra,480.2158273381295,481
+mungbean,Mizoram,750.0,13
+mungbean,Nagaland,750.0,49
+mungbean,Odisha,266.2990632329921,954
+mungbean,Puducherry,540.0372439478584,49
+mungbean,Punjab,666.6666666666666,145
+mungbean,Rajasthan,356.6265060240964,279
+mungbean,Tamil Nadu,456.7597403216265,474
+mungbean,Telangana ,433.3333333333333,233
+mungbean,Tripura,538.4615384615385,120
+mungbean,Uttar Pradesh,470.5882352941176,1721
+mungbean,Uttarakhand,500.0,51
+mungbean,West Bengal,572.0,553
+mungbean,ALL,423.0769230769231,9033
+blackgram,Andaman and Nicobar Islands,442.6470588235294,3
+blackgram,Andhra Pradesh,533.9597954085881,359
+blackgram,Assam,551.1061488794978,358
+blackgram,Bihar,775.4442649434571,443
+blackgram,Chandigarh,800.0,3
+blackgram,Chhattisgarh,274.59016393442624,487
+blackgram,Dadra and Nagar Haveli,799.854862119013,4
+blackgram,Gujarat,600.78125,322
+blackgram,Haryana,390.625,61
+blackgram,Himachal Pradesh,384.1342412451362,86
+blackgram,Jammu and Kashmir ,491.0670387349678,68
+blackgram,Karnataka,375.0,447
+blackgram,Madhya Pradesh,330.1722932444268,716
+blackgram,Maharashtra,537.7036756347102,482
+blackgram,Mizoram,600.0,8
+blackgram,Nagaland,666.6666666666666,33
+blackgram,Odisha,281.858910800191,982
+blackgram,Puducherry,571.4285714285714,47
+blackgram,Punjab,500.0,67
+blackgram,Rajasthan,358.49056603773585,285
+blackgram,Sikkim,758.8235294117648,57
+blackgram,Tamil Nadu,471.7958803508985,490
+blackgram,Telangana ,500.0,220
+blackgram,Tripura,565.3212440284683,116
+blackgram,Uttar Pradesh,514.7944297082229,1892
+blackgram,Uttarakhand,559.0892123926839,212
+blackgram,West Bengal,584.6153846153846,453
+blackgram,ALL,462.99795151249975,8701
+mothbeans,Gujarat,500.0,217
+mothbeans,Haryana,211.09104349085146,42
+mothbeans,Himachal Pradesh,333.3333333333333,10
+mothbeans,Jammu and Kashmir ,666.6666666666666,7
+mothbeans,Punjab,1000.0,15
+mothbeans,Rajasthan,200.0,266
+mothbeans,Uttar Pradesh,404.5454545454545,134
+mothbeans,Uttarakhand,388.8888888888889,21
+mothbeans,ALL,351.0085759149656,714
+kidneybeans,Nagaland,1251.6226476711433,16
+kidneybeans,ALL,1251.6226476711433,16
+jute,Assam,1743.804,453
+jute,Bihar,1504.7531437553587,236
+jute,Madhya Pradesh,385.4367666232073,32
+jute,Manipur,360.0,3
+jute,Meghalaya,1454.5850101289052,58
+jute,Nagaland,347.14285714285717,49
+jute,Odisha,1250.886075949367,137
+jute,Tripura,1492.9563086974276,60
+jute,West Bengal,2432.4281371606685,238
+jute,ALL,1680.0,1266

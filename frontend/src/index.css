@@ -1,0 +1,198 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* Semantic tokens: warm paper + forest ink by day, deep soil by night. */
+:root {
+  --bg: #f5f1e6;
+  --bg-glow: #fbf7ec;
+  --surface: #fffdf7;
+  --surface-2: #f0ebdc;
+  --surface-3: #e7e0cc;
+  --ink: #15261c;
+  --ink-2: #3c4b40;
+  --muted: #6f7a6c;
+  --line: #e2dccb;
+  --line-strong: #cfc6ae;
+  --primary: #1f5c3a;
+  --primary-2: #2f7d4f;
+  --primary-soft: #dcead9;
+  --on-primary: #f8f5ea;
+  --accent: #e0a526;
+  --accent-soft: #f8ead0;
+  --danger: #c0502b;
+  --danger-soft: #f6e0d6;
+  --warn: #c98516;
+  --warn-soft: #f7e8cc;
+  --sky: #2f78a8;
+  --sky-soft: #dceaf2;
+  --shadow: 21 38 28;
+  color-scheme: light;
+}
+
+.dark {
+  --bg: #0d1410;
+  --bg-glow: #121c16;
+  --surface: #141e18;
+  --surface-2: #1a261f;
+  --surface-3: #233229;
+  --ink: #ecf0e6;
+  --ink-2: #c2cbbd;
+  --muted: #8a9786;
+  --line: #24332a;
+  --line-strong: #33463a;
+  --primary: #6fcf8f;
+  --primary-2: #8ddba6;
+  --primary-soft: #1b3324;
+  --on-primary: #0b1510;
+  --accent: #f2c14e;
+  --accent-soft: #3a2f15;
+  --danger: #f08a68;
+  --danger-soft: #3b2019;
+  --warn: #f0b552;
+  --warn-soft: #382a14;
+  --sky: #74b4dd;
+  --sky-soft: #172c3a;
+  --shadow: 0 0 0;
+  color-scheme: dark;
+}
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-surface-3: var(--surface-3);
+  --color-ink: var(--ink);
+  --color-ink-2: var(--ink-2);
+  --color-muted: var(--muted);
+  --color-line: var(--line);
+  --color-line-strong: var(--line-strong);
+  --color-primary: var(--primary);
+  --color-primary-2: var(--primary-2);
+  --color-primary-soft: var(--primary-soft);
+  --color-on-primary: var(--on-primary);
+  --color-accent: var(--accent);
+  --color-accent-soft: var(--accent-soft);
+  --color-danger: var(--danger);
+  --color-danger-soft: var(--danger-soft);
+  --color-warn: var(--warn);
+  --color-warn-soft: var(--warn-soft);
+  --color-sky: var(--sky);
+  --color-sky-soft: var(--sky-soft);
+  --color-brand: #1f5c3a;
+  --color-brand-ink: #f2c14e;
+  --font-display: "Fraunces", ui-serif, Georgia, serif;
+  --font-sans: "Geist", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "Geist Mono", ui-monospace, monospace;
+  --shadow-soft: 0 1px 2px rgb(var(--shadow) / 0.04), 0 8px 24px -12px rgb(var(--shadow) / 0.14);
+  --shadow-lift: 0 2px 4px rgb(var(--shadow) / 0.05), 0 22px 40px -18px rgb(var(--shadow) / 0.28);
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+body {
+  background:
+    radial-gradient(1200px 600px at 85% -10%, var(--bg-glow), transparent 60%),
+    var(--bg);
+  color: var(--ink);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  font-feature-settings: "ss01", "cv11";
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Subtle paper grain over everything */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+  opacity: 0.35;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .05 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+.dark body::before {
+  opacity: 0.6;
+}
+
+::selection {
+  background: var(--accent);
+  color: #1b1405;
+}
+
+.font-display {
+  font-variation-settings: "SOFT" 50, "WONK" 0;
+  letter-spacing: -0.02em;
+}
+
+.tabular {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Thin, quiet scrollbars */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--line-strong) transparent;
+}
+
+:focus-visible {
+  outline: 2px solid var(--primary-2);
+  outline-offset: 2px;
+  border-radius: 8px;
+}
+
+.shimmer {
+  background: linear-gradient(90deg, var(--surface-2) 0%, var(--surface-3) 50%, var(--surface-2) 100%);
+  background-size: 200% 100%;
+  animation: shimmer 1.4s ease-in-out infinite;
+}
+@keyframes shimmer {
+  to {
+    background-position: -200% 0;
+  }
+}
+
+@keyframes sway {
+  0%, 100% { transform: rotate(-2deg); }
+  50% { transform: rotate(2deg); }
+}
+.sway {
+  transform-origin: bottom center;
+  animation: sway 5s ease-in-out infinite;
+}
+
+@keyframes float-cloud {
+  from { transform: translateX(-8%); }
+  to { transform: translateX(8%); }
+}
+.cloud {
+  animation: float-cloud 18s ease-in-out infinite alternate;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .shimmer, .sway, .cloud {
+    animation: none;
+  }
+}
+
+/* cmdk */
+[cmdk-item][data-selected="true"] {
+  background: var(--surface-2);
+}
+[cmdk-group-heading] {
+  padding: 8px 12px 4px;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+/* Recharts focus ring off; we draw our own */
+.recharts-wrapper *:focus {
+  outline: none;
+}
